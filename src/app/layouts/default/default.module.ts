@@ -7,6 +7,7 @@ import {HomeComponent} from '../../components/home/home.component';
 import {RouterModule} from '@angular/router';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {SharedModule} from '../../shared/shared.module';
+import {ReservationsComponent} from '../../components/reservations/reservations.component';
 
 
 
@@ -15,7 +16,8 @@ import {SharedModule} from '../../shared/shared.module';
     DefaultComponent,
     AboutusComponent,
     ContactusComponent,
-    HomeComponent
+    HomeComponent,
+    ReservationsComponent
   ],
   imports: [
     CommonModule,
